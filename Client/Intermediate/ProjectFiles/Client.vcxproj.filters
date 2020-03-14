@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Client.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A4DCEF20-0B5C-44A6-816E-C291B7DA3B32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Client.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ClientEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D0AF3CB8-FF0E-4FA8-A9F5-5873E1A06E3F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{45A270FD-6EFC-42C9-92D6-A671F38ED5A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\kbengine_ue4_plugins">
+      <UniqueIdentifier>{2FF22D72-80C7-4274-A31F-0CEACD5995C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source">
+      <UniqueIdentifier>{9FCC5C7D-7C5B-4512-A53F-B23432797871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins">
+      <UniqueIdentifier>{95586C07-454C-4600-A9E9-2743F07E1218}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\KBEnginePlugins.Build.cs">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins</Filter>
+    </None>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine">
+      <UniqueIdentifier>{8E000234-503C-4CF5-8485-1B797EFF1BC4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\AccountBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\AccountBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\AvatarBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\AvatarBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Bundle.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Bundle.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ClientSDKUpdater.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ClientSDKUpdater.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ClientSDKUpdateUI.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ClientSDKUpdateUI.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\CustomDataTypes.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\CustomDataTypes.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\DataTypes.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\DataTypes.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EncryptionFilter.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EncryptionFilter.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Entity.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Entity.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCall.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCall.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallAccountBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallAccountBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallAvatarBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallAvatarBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallGateBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallGateBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallMonsterBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallMonsterBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallNPCBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallNPCBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpaceBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpaceBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpaceDuplicateBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpaceDuplicateBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpacesBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpacesBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpawnPointBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallSpawnPointBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallTestBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallTestBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallTestNoBaseBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityCallTestNoBaseBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityComponent.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityComponent.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityDef.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\EntityDef.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\GateBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\GateBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ikcp.c">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ikcp.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Interfaces.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Interfaces.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBDebug.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBECommon.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBECommon.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEMain.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEMain.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEngine.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEngine.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEngineArgs.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEngineArgs.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEnginePlugins.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEnginePlugins.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEnginePluginsPrivatePCH.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBETicker.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBETicker.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBETypes.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEvent.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEvent.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEventTypes.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBEventTypes.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBVar.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\KBVar.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MemoryStream.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MemoryStream.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MessageReader.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MessageReader.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Messages.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Messages.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Method.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Method.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MonsterBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\MonsterBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceKCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceKCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceTCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NetworkInterfaceTCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NPCBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\NPCBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ObjectPool.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverKCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverKCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverTCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketReceiverTCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderKCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderKCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderTCP.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\PacketSenderTCP.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Property.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\Property.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ScriptModule.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ScriptModule.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ServerErrorDescrs.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ShowPromptMessageUI.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\ShowPromptMessageUI.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpaceBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpaceBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpaceDuplicateBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpaceDuplicateBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpacesBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpacesBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpawnPointBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\SpawnPointBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\TestBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\TestBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\TestNoBaseBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine\TestNoBaseBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Engine</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Resources">
+      <UniqueIdentifier>{FF5074E3-E901-4A60-96C7-F2F4369E6DB8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Resources\Icon128.png">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts">
+      <UniqueIdentifier>{240AB596-CAFE-4394-8748-9568D443F12B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Account.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Account.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Avatar.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Avatar.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Gate.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Gate.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\LogicEvents.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\LogicEvents.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Monster.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Monster.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\NPC.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\NPC.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components">
+      <UniqueIdentifier>{85993E43-F757-4045-8167-B751117B6192}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components\Test.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components\Test.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components\TestNoBase.cpp">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components\TestNoBase.h">
+      <Filter>Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\Scripts\Components</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\KBEnginePlugins.uplugin">
+      <Filter>Plugins\kbengine_ue4_plugins</Filter>
+    </None>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Config">
+      <UniqueIdentifier>{353DBD83-2AEF-4813-9161-4E8A12531FD3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\Config\FilterPlugin.ini">
+      <Filter>Plugins\kbengine_ue4_plugins\Config</Filter>
+    </None>
+    <Filter Include="Plugins\kbengine_ue4_plugins\Resources">
+      <UniqueIdentifier>{178641CA-6FC4-45AF-B112-532E17F1412C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\kbengine_ue4_plugins\Resources\Icon128.png">
+      <Filter>Plugins\kbengine_ue4_plugins\Resources</Filter>
+    </None>
+    <Filter Include="Source\Client">
+      <UniqueIdentifier>{05D0CC77-60F1-4BC3-B905-92E68A22736D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Client\Client.Build.cs">
+      <Filter>Source\Client</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Client\Client.cpp">
+      <Filter>Source\Client</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Client\Client.h">
+      <Filter>Source\Client</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Client\ClientCharacter.cpp">
+      <Filter>Source\Client</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Client\ClientCharacter.h">
+      <Filter>Source\Client</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Client\ClientGameMode.cpp">
+      <Filter>Source\Client</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Client\ClientGameMode.h">
+      <Filter>Source\Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

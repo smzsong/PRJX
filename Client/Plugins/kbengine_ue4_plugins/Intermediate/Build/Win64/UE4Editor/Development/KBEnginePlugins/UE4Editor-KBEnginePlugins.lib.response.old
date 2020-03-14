@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-KBEnginePlugins.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\PRJX\Client\kbengine_ue4_demo-master\Intermediate\Build\Win64\kbengine_ue4_demoEditor\Development\UnrealEd\SharedPCH.UnrealEd.NoUndef.h.obj"
+"E:\PRJX\Client\kbengine_ue4_demo-master\Plugins\kbengine_ue4_plugins\Intermediate\Build\Win64\UE4Editor\Development\KBEnginePlugins\Module.KBEnginePlugins.cpp.obj"
+"E:\PRJX\Client\kbengine_ue4_demo-master\Plugins\kbengine_ue4_plugins\Intermediate\Build\Win64\UE4Editor\Development\KBEnginePlugins\Module.KBEnginePlugins.gen.cpp.obj"
+"E:\PRJX\Client\kbengine_ue4_demo-master\Plugins\kbengine_ue4_plugins\Intermediate\Build\Win64\UE4Editor\Development\KBEnginePlugins\ikcp.c.obj"
+"E:\PRJX\Client\kbengine_ue4_demo-master\Plugins\kbengine_ue4_plugins\Intermediate\Build\Win64\UE4Editor\Development\KBEnginePlugins\Default.rc2.res"
+/OUT:"E:\PRJX\Client\kbengine_ue4_demo-master\Plugins\kbengine_ue4_plugins\Intermediate\Build\Win64\UE4Editor\Development\KBEnginePlugins\UE4Editor-KBEnginePlugins.lib"
+/INCLUDE:IMPLEMENT_MODULE_KBEnginePlugins

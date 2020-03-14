@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Client",
+			"Path": "E:\\PRJX\\Client\\Source\\Client.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ClientEditor",
+			"Path": "E:\\PRJX\\Client\\Source\\ClientEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

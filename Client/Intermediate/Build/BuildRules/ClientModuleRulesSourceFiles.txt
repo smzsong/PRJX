@@ -1,0 +1,4 @@
+E:\PRJX\Client\Source\Client\Client.Build.cs
+E:\PRJX\Client\Plugins\kbengine_ue4_plugins\Source\KBEnginePlugins\KBEnginePlugins.Build.cs
+E:\PRJX\Client\Source\Client.Target.cs
+E:\PRJX\Client\Source\ClientEditor.Target.cs
