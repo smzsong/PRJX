@@ -1,2 +1,0 @@
-ERROR  [2020-03-04 01:01:30,952] - TiXmlNode::openXML: server/kbengine.xml, error!
-ERROR  [2020-03-04 01:01:30,952] - ServerConfig::loadConfig: load server/kbengine.xml is failed!
