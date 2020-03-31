@@ -1,0 +1,31 @@
+  INFO root [2020-03-31 17:01:08,336] - 
+  INFO root [2020-03-31 17:01:08,337] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-03-31 17:01:08,337] - Resmgr::initialize: KBE_ROOT=E:/PRJXSVN/PRJX/trunk/Server/
+  INFO root [2020-03-31 17:01:08,338] - Resmgr::initialize: KBE_RES_PATH=E:/PRJXSVN/PRJX/trunk/Server/kbe/res/;E:/PRJXSVN/PRJX/trunk/Server/kbe/res/sdk_templates/server/python_assets/;E:/PRJXSVN/PRJX/trunk/Server/kbe/res/sdk_templates/server/python_assets/res/;E:/PRJXSVN/PRJX/trunk/Server/kbe/res/sdk_templates/server/python_assets/scripts/
+  INFO root [2020-03-31 17:01:08,338] - Resmgr::initialize: KBE_BIN_PATH=E:/PRJXSVN/PRJX/trunk/Server/kbe/bin/server/
+  INFO root [2020-03-31 17:01:08,349] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.1.164 ( 192.168.1.164:14176 )
+  INFO root [2020-03-31 17:01:08,349] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.1.164:14176, SOMAXCONN=511.
+  INFO root [2020-03-31 17:01:08,359] - ---- tool Version: 2.5.8. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: ACE55A2934030C0DA3446BA0E5FAB5DD. Config: Debug X86. Built: 16:49:01 Mar 31 2020. AppID: 18446744073709551615. UID: 0. PID: 45812 ----
+  INFO root [2020-03-31 17:01:08,359] - Server SMZ: AMD Ryzen 7 2700X Eight-Core Processor          with 2097151kB RAM
+  INFO root [2020-03-31 17:01:08,361] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-03-31 17:01:08,361] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2020-03-31 17:01:09,515] - Script::install(): is successfully, Python=(3.7.3 (default, Mar 31 2020, 16:47:20) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-03-31 17:01:09,515] - Script::install(): KBExtra is successfully!
+  INFO root [2020-03-31 17:01:10,403] - Script::uninstall(): is successfully!
+ DEBUG root [2020-03-31 17:01:10,404] - ThreadPool::destroy(): starting size 2.
+  WARN root [2020-03-31 17:01:10,705] - ThreadPool::destroy(): waiting for thread(2)[0x181c638,0x181c770,], try=1
+ DEBUG root [2020-03-31 17:01:11,106] - TPThread::~TPThread(): 0x181c638
+ DEBUG root [2020-03-31 17:01:11,106] - TPThread::~TPThread(): 0x181c770
+ DEBUG root [2020-03-31 17:01:11,106] - ThreadPool::destroy(): successfully!
+ DEBUG root [2020-03-31 17:01:11,116] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2020-03-31 17:01:11,116] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,116] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,116] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,116] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,117] - Address::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,117] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2020-03-31 17:01:11,117] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2020-03-31 17:01:11,117] - tool(18446744073709551615) has shut down. ServerAssets=true
+  INFO root [2020-03-31 17:01:12,119] - EventDispatcher()::~EventDispatcher: Num timers = 2
