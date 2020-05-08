@@ -11,6 +11,8 @@ public class KBEnginePlugins : ModuleRules
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         bEnableUndefinedIdentifierWarnings = false;
+        ShadowVariableWarningLevel = WarningLevel.Warning;
+        bLegacyPublicIncludePaths = true;
 
         string[] PrivateModules = new string[] { "Slate", "SlateCore", "Networking", "Sockets", "OpenSSL" };
         string[] PublicModules = new string[] { "Core", "CoreUObject", "Engine"};
